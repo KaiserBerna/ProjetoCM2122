@@ -65,7 +65,7 @@ class UpdateSlotActivity : AppCompatActivity (){
             // Returns the info to know which action the user chose
             resultIntent.putExtra("TypeOfReturn", "UPDATE")
 
-            // Returns the necessary info to update the bouquet in the ManageGardenActivity list of slots
+            // Returns the necessary info to update the slot in the ManageGardenActivity list of slots
             resultIntent.putExtra("SlotToUpdateId",slotUpdated.id )
             resultIntent.putExtra("SlotForUpdate", slotUpdated)
 
@@ -169,7 +169,7 @@ class UpdateSlotActivity : AppCompatActivity (){
             var plusButtonView = v.findViewById(R.id.plusButton) as Button
 
 
-            // Gets current flower type number
+            // Gets current plant type number
             var currentPlantTypeSelectionView =  v.findViewById(R.id.plantTypeNumberSelection) as EditText
 
 
