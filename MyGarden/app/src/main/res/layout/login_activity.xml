@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="258dp"
+            android:layout_gravity="center"
+            android:background="@color/cardview_shadow_end_color"
+            android:src="@drawable/logo" />
+
+
+        <EditText
+            android:id="@+id/emailView"
+            android:layout_width="321dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="e-mail"
+
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordView"
+            android:layout_width="321dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <ImageButton
+            android:id="@+id/LoginButtonView"
+            android:layout_width="321dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login"
+            android:padding="16dp"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/SignUpButtonView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/blue_button_sign_up"
+        android:padding="16dp" />
+
+
+</RelativeLayout>

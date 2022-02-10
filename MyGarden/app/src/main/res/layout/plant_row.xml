@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/plantImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/slotNameView"
+        android:layout_width="210dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/plantImageView"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_toEndOf="@+id/plantImageView"
+        android:layout_toRightOf="@+id/plantImageView"
+        android:text="badjoras"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/plantImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/slotPlantCountView"
+        android:layout_width="119dp"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/plantImageView"
+        android:layout_toEndOf="@+id/plantImageView"
+        android:layout_toRightOf="@+id/plantImageView"
+        android:text="PLANTCOUNT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toEndOf="@+id/plantImageView"
+        app:layout_constraintTop_toBottomOf="@+id/slotNameView" />
+
+    <TextView
+        android:id="@+id/plantSprinkleView"
+        android:layout_width="173dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Sprinkle: % hour interval"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plantImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

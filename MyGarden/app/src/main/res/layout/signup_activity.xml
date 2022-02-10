@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/newAccountImageView"
+            android:layout_width="187dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            android:src="@drawable/default_image"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/usernameView"
+            android:layout_width="307dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="Username"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/emailView"
+            android:layout_width="307dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/passwordView"
+            android:layout_width="307dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/confirmPasswordView"
+            android:layout_width="306dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/CreateAccountButtonView"
+            android:layout_width="305dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="Create Account"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

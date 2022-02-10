@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/drawable/ic_camera_alt_black_24dp.xml" value="0.1685185185185185" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/drawable/ic_collections_black_24dp.xml" value="0.1685185185185185" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/activity_main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/add_plant_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/app_info_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/edit_slot_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/login_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/manage_account_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/manage_garden_activity.xml" value="0.24010416666666667" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/password_check.xml" value="0.25025641025641027" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/plant_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/plant_type_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/select_pic_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/signup_activity.xml" value="0.25025641025641027" />
+        <entry key="..\:/IPCAKotlin/MyGarden/app/src/main/res/layout/update_slot_activity.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

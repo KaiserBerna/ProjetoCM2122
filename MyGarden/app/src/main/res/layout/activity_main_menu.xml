@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+
+    <ImageView
+        android:id="@+id/mainAvatarImageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start|right"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="49dp"
+        android:src="@drawable/default_avatar" />
+
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start|right"
+        android:layout_marginStart="163dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/username_icon" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start|right"
+        android:layout_marginStart="163dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/email_icon" />
+
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="0dp"
+        android:text="TextView"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="1dp"
+        android:text="TextView"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/manageGardenButtonView"
+        android:layout_width="384dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="309dp"
+        android:background="@drawable/manage_garden_button" />
+
+
+    <ImageButton
+        android:id="@+id/manageAccountButtonView"
+        android:layout_width="384dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="416dp"
+        android:background="@drawable/manage_account_button"
+        android:text="Button" />
+
+    <ImageButton
+        android:id="@+id/storyButtonView"
+        android:layout_width="384dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/app_information_button" />
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "567246744597",
+    "project_id": "mygarden-1a0ab",
+    "storage_bucket": "mygarden-1a0ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567246744597:android:0eb76c59174c4e0fca721c",
+        "android_client_info": {
+          "package_name": "ipca.projetocm.mygarden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567246744597-gae0rqrs3n1pehoqavf3nrci2c6oot51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUCyH7ZvK1i58b6H9MlNTHyPB61-iIAno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567246744597-gae0rqrs3n1pehoqavf3nrci2c6oot51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
